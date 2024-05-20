@@ -1,0 +1,26 @@
+.header {
+  width: 100%;
+  background-color: #ecfdff;
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .link {
+      text-decoration: none;
+      color: black;
+    }
+    .logo {
+      font-size: 25px;
+      font-weight: 900;
+    }
+    .links {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}
